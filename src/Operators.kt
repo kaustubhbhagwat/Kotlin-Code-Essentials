@@ -25,4 +25,22 @@ fun main() {
     println(k)
 
     println(k++ + ++k)
+
+
+    val isAbove70 = true
+    val knowsPrograming =  false
+
+    var calledForInterview = isAbove70 && knowsPrograming
+     calledForInterview = isAbove70 || knowsPrograming
+
+    println(calledForInterview)
+
+    // ShortCircuiting
+    var a = 10
+    var b = 11
+
+    val result = a==10 || b==11
+    println(!result)
+
+
 }
