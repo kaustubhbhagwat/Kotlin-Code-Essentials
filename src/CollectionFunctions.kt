@@ -30,6 +30,8 @@ fun main() {
 
     println(paidUserList)
 
+    nums.forEach { println(it) }
+
 }
 
 fun isOddNumber(a: Int): Boolean {
